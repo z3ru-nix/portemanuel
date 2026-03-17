@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Emanuel Leão</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="bg-gradient"></div>
+
+    <header>
+        <a href="#" class="logo-terminal">
+            <span class="user">Emanuel</span><span class="host">Leão</span>
+        </a>
+
+        <nav class="nav-menu">
+            <a href="#sobre">Sobre</a>
+            <a href="#especialidades">Especialidades</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <div class="social-header">
+            <a href="https://github.com/z3ru-nix" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/emanuelbleao" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="sobre">
+            <div class="hero-text">
+                <h1><span class="name">Emanuel Leão</span></h1>
+                <div id="dynamic-text"></div>
+                <p class="bio">
+                    Bem-vindo ao meu portfólio! Aqui você irá encontrar meus projetos, habilidades e experiências na área da
+                    tecnologia.
+                </p>
+            </div>
+
+            <div class="hero-image">
+                <img src="./image/eu.jpeg" alt="Emanuel Leão" class="avatar">
+            </div>
+        </section>
+
+        <section class="stack-section" id="jornada" style="margin-top: -50px;">
+            <div class="stack-header">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Minha Jornada</h3>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="dot dot-dim"></div>
+                    <span class="date">2022 — 2024</span>
+                    <h4>Técnico em Desenvolvimento de Sistemas</h4>
+                    <p>ETEC Prof. José Sant'Ana de Castro</p>
+                    <small class="status-done">CONCLUÍDO</small>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="dot dot-accent"></div>
+                    <span class="date highlight">2025</span>
+                    <h4>Especialização Profissional</h4>
+                    <p>SENAI Cruzeiro</p>
+                    <div class="tech-tags">
+                        <span>Python Data Science</span>
+                        <span>Desenvolvedor Back-End</span>
+                        <span>Google Cloud IA generativa</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="dot dot-glow"></div>
+                    <span class="date highlight">2026 — ATUALMENTE</span>
+                    <div class="specialty-card journey-card">
+                        <h4>Redes & Cibersegurança</h4>
+                        <p><strong>Faculdade Metropolitana:</strong> Cursando Redes de Computadores</p>
+                        <hr class="separator">
+                        <p class="cisco-info">
+                            <i class="fas fa-shield-halved"></i>
+                            <span><strong>Cisco Academy:</strong> Cybersecurity (Em progresso)</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid-specialties" id="especialidades">
+            <div class="specialty-card">
+                <i class="fas fa-server card-icon"></i>
+                <h3>Back-End Engineer</h3>
+                <p>Criação de APIs escaláveis, seguros e microsserviços modernos, com foco em arquitetura limpa.</p>
+                <div class="card-techs">
+                    <i class="fas fa-database" style="color: var(--color-sql);"></i>
+                    <i class="fab fa-node-js" style="color: var(--color-nestjs);"></i>
+                    <i class="fab fa-code" style="color: var(--color-typescript);"></i>
+                </div>
+            </div>
+
+            <div class="specialty-card">
+                <i class="fas fa-chart-pie card-icon"></i>
+                <h3>Data Analyst</h3>
+                <p>Extração, tratamento e visualização de dados brutos para gerar insights de negócios.</p>
+                <div class="card-techs">
+                    <i class="fab fa-python" style="color: var(--color-python);"></i>
+                </div>
+            </div>
+
+            <div class="specialty-card">
+                <i class="fab fa-network-wired card-icon"></i>
+                <h3>Cybersecurity (Em aprendizado)</h3>
+                <p>Proteger sistemas e redes contra ameaças cibernéticas ou realizar pentests.</p>
+                <div class="card-techs">
+                    <i class="fab fa-linux" style="color: var(--color-linux);"></i>
+                    <i class="fas fa-terminal" style="color: #fff;"></i>
+                </div>
+            </div>
+
+            <div class="specialty-card">
+                <i class="fas fa-network-wired card-icon"></i>
+                <h3>Redes (Em aprendizado)</h3>
+                <p>Estudando protocolos TCP/IP, roteamento e topologias de comunicação.</p>
+                <div class="card-techs">
+                    <i class="fas fa-ethernet" style="color: var(--color-networking);"></i>
+                    <span class="learning-badge">Learning</span>
+                </div>
+            </div>
+
+            <div class="specialty-card">
+                <i class="fab fa-aws card-icon"></i>
+                <h3>AWS Cloud (Em aprendizado)</h3>
+                <p>Aprendendo sobre infraestrutura as a service (IaaS) e armazenamento em nuvem.</p>
+                <div class="card-techs">
+                    <i class="fas fa-cloud" style="color: var(--color-aws);"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="stack-section" id="habilidades">
+            <div class="stack-header">
+                <h3>Minhas Habilidades</h3>
+            </div>
+            <div class="stack-grid">
+                <div class="stack-item"><i class="fab fa-node-js"
+                        style="color: var(--color-nestjs);"></i><span>NestJS</span></div>
+                <div class="stack-item"><i class="fab fa-code"
+                        style="color: var(--color-typescript);"></i><span>TypeScript</span></div>
+                <div class="stack-item"><i class="fab fa-python"
+                        style="color: var(--color-python);"></i><span>Python</span></div>
+                <div class="stack-item"><i class="fas fa-database" style="color: var(--color-sql);"></i><span>SQL</span>
+                </div>
+                <div class="stack-item"><i class="fab fa-linux" style="color: var(--color-linux);"></i><span>Kali
+                        Linux</span></div>
+                <div class="stack-item"><i class="fas fa-terminal" style="color: #fff;"></i><span>Bash</span></div>
+                <div class="stack-item"><i class="fab fa-git-alt" style="color: #f05032;"></i><span>Git</span></div>
+                <div class="stack-item"><i class="fab fa-aws" style="color: var(--color-aws);"></i><span>AWS</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contato">
+            <h2>Vamos trabalhar juntos?</h2>
+            <p>Sinta-se à vontade para me chamar para novos projetos ou trocar uma ideia sobre tecnologia!</p>
+            <div class="contact-grid">
+                <a href="https://github.com/z3ru-nix" target="_blank" class="contact-btn">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.instagram.com/emanuelbleao" target="_blank" class="contact-btn">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Emanuel Leão | Todos os direitos reservados</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
